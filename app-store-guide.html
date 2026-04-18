@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0B0B0C" />
+<title>App Store Submission Guide — AI QR Code Scanner Generator</title>
+<meta name="description" content="Copy-paste ready App Store Connect listing + submission checklist for AI QR Code Scanner Generator." />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  pre.copy {
+    background: var(--fill1);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ink);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+    margin: 14px 0 24px;
+  }
+  .grid-2 .card { padding: 14px 16px; }
+  .grid-2 .card .title { font-size: 14px; color: var(--ink-mid); margin-bottom: 2px; font-weight: 500; }
+  .grid-2 .card .value { font-weight: 600; font-size: 17px; color: var(--ink); }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 15px; }
+  table th, table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--fill2); }
+  table th { color: var(--ink-mid); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.4px; }
+  .checklist li { list-style: none; position: relative; padding-left: 26px; }
+  .checklist li::before {
+    content: "☐";
+    position: absolute; left: 0; top: 0;
+    color: var(--ink-mid); font-size: 17px;
+  }
+  .toc {
+    background: var(--fill1);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin: 24px 0 36px;
+    font-size: 15px;
+  }
+  .toc ol { margin: 8px 0 0; padding-left: 22px; }
+  .toc li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="site">
+    <a href="index.html" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:12px;">
+      <span class="logo">AI</span>
+      <span class="name">AI QR Code Scanner</span>
+    </a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="app-store-guide.html">Store Guide</a>
+    </nav>
+  </header>
+
+  <h1>App Store Submission Guide</h1>
+  <p class="updated">Everything you need to paste into App Store Connect — title, subtitle, description, keywords, categories, privacy answers, screenshot specs, and a full submission checklist.</p>
+
+  <div class="toc">
+    <strong>Contents</strong>
+    <ol>
+      <li><a href="#identity">App identity &amp; basic info</a></li>
+      <li><a href="#description">Description &amp; marketing copy</a></li>
+      <li><a href="#keywords">Keywords &amp; ASO</a></li>
+      <li><a href="#urls">Support &amp; marketing URLs</a></li>
+      <li><a href="#category">Category &amp; age rating</a></li>
+      <li><a href="#privacy">Privacy nutrition labels</a></li>
+      <li><a href="#iap">In-App Purchases</a></li>
+      <li><a href="#screenshots">Screenshot &amp; preview specs</a></li>
+      <li><a href="#review">Review information</a></li>
+      <li><a href="#testflight">TestFlight checklist</a></li>
+      <li><a href="#submit">Final submission checklist</a></li>
+      <li><a href="#post">After submission</a></li>
+    </ol>
+  </div>
+
+  <!-- 1 — IDENTITY -->
+  <h2 id="identity">1. App identity &amp; basic info</h2>
+  <p>Paste these into <em>App Store Connect → My Apps → + → New App</em> (first time) or into the app's <em>App Information</em> page.</p>
+
+  <div class="grid-2">
+    <div class="card"><div class="title">App Name (30 chars max)</div><div class="value">AI QR Code Scanner Generator</div></div>
+    <div class="card"><div class="title">Subtitle (30 chars max)</div><div class="value">Scan, Create, Share Codes</div></div>
+    <div class="card"><div class="title">Bundle ID</div><div class="value">com.ai.qr.scanner.app</div></div>
+    <div class="card"><div class="title">SKU</div><div class="value">aiqrscanner-ios-001</div></div>
+    <div class="card"><div class="title">Primary Language</div><div class="value">English (U.S.)</div></div>
+    <div class="card"><div class="title">Initial Version</div><div class="value">1.2.0 (or current)</div></div>
+  </div>
+
+  <div class="callout">
+    iPhone home-screen truncates app labels at ~11 characters, so users will
+    see the first word on their springboard. That's fine — the App Store
+    search uses the full <strong>App Name</strong> as the primary ranking
+    signal, which is why we spell it out in full.
+  </div>
+
+  <!-- 2 — DESCRIPTION -->
+  <h2 id="description">2. Description &amp; marketing copy</h2>
+
+  <h3>Promotional text (170 chars — editable without new submission)</h3>
+  <pre class="copy">New: 3-tier Pro pricing, custom QR design, unlimited history. Scan any QR or barcode instantly — create your own in 16 formats. 100% private, no accounts.</pre>
+
+  <h3>Description (4,000 chars max)</h3>
+  <pre class="copy">AI QR Code Scanner Generator is the fastest, most private way to scan QR codes and barcodes on iPhone — with a built-in generator for creating your own codes in 16 formats.
+
+━━━━━━━━━━━━━━━━━━━━━
+SCAN ANYTHING, INSTANTLY
+━━━━━━━━━━━━━━━━━━━━━
+• QR codes — URLs, Wi-Fi, contacts, calendar events, SMS, email, phone, location, plain text
+• Barcodes — EAN-8/13, UPC-A/E, Code 39/93/128, PDF417, Aztec, Data Matrix, ITF
+• Scan from your camera in real time, or pick an image from your library
+• Smart actions — open in Safari, join Wi-Fi, add contact, compose message, open Maps
+• Safe Browsing check on every URL, so you're warned about phishing links
+
+━━━━━━━━━━━━━━━━━━━━━
+CREATE YOUR OWN CODES
+━━━━━━━━━━━━━━━━━━━━━
+• 16 code types — Website, Contact, Wi-Fi, Location, Calendar Event, Email, SMS, Phone, Plain Text, Barcode, WhatsApp, FaceTime, Telegram, YouTube, Instagram, TikTok, and more
+• Custom QR design (Pro) — colors, dot shapes, frames, and a center logo
+• Export as PNG, JPG, SVG or WebP
+• Pin favourites to your home screen as one-tap shortcuts
+
+━━━━━━━━━━━━━━━━━━━━━
+SEARCHABLE HISTORY
+━━━━━━━━━━━━━━━━━━━━━
+• Every scan saved on-device, searchable by content or user tag
+• Week and month analytics dashboard with a category donut chart
+• Favourites, swipe-to-delete, and one-tap re-share
+
+━━━━━━━━━━━━━━━━━━━━━
+PRIVACY BY DESIGN
+━━━━━━━━━━━━━━━━━━━━━
+• No account. No analytics. No advertising SDKs.
+• Every scan stays on your device
+• Optional iCloud Sync replicates only to your own iCloud (Pro)
+• We don't see your scans. There's no server that knows you exist.
+
+━━━━━━━━━━━━━━━━━━━━━
+AI QR PRO
+━━━━━━━━━━━━━━━━━━━━━
+Unlock all features with AI QR Pro:
+• Custom QR design (colors, shapes, frames, logos)
+• Pro exports (JPG, SVG, WebP, high-res PNG)
+• Unlimited history (free tier keeps the latest 50 scans)
+• Continuous scan — keep decoding without dismissing
+• iCloud Sync across your iPhone and iPad
+• Priority email support
+
+Plans:
+• Monthly — $2.99 / month
+• Yearly — $19.99 / year (best value, ~$1.66 / month)
+• Lifetime — $299.99 one-time purchase
+
+Subscriptions renew automatically unless cancelled 24 hours before the end of the current period. Manage them in Settings → [Your Name] → Subscriptions. Lifetime is a one-time purchase, not a subscription.
+
+━━━━━━━━━━━━━━━━━━━━━
+BUILT FOR iOS 17+
+━━━━━━━━━━━━━━━━━━━━━
+• SwiftUI + SwiftData
+• Fully native, no web views
+• VoiceOver and Dynamic Type throughout
+• Dark mode, haptics, and the camera flash all work exactly how you'd expect
+
+Privacy policy: https://scankit-pages.github.io/privacy.html
+Terms of service: https://scankit-pages.github.io/terms.html
+Support: akashmangukiya10@gmail.com</pre>
+
+  <div class="callout">
+    Character count matters. Paste the block above into App Store Connect
+    and it will show a live counter in the bottom-right of the description
+    field. The copy above is well under the 4,000-char cap with headroom.
+  </div>
+
+  <!-- 3 — KEYWORDS -->
+  <h2 id="keywords">3. Keywords &amp; ASO</h2>
+  <p>App Store Connect's <em>Keywords</em> field is <strong>100 characters total</strong>, comma-separated, no spaces between items. Don't repeat words that are already in the App Name or Subtitle — those are automatically indexed.</p>
+
+  <h3>Primary keywords (paste directly)</h3>
+  <pre class="copy">qr,barcode,reader,code,generator,wifi,vcard,scanner,ean,upc,pdf417,qrcode,upi,epc,wallet</pre>
+
+  <h3>Words you do NOT need to add (already indexed)</h3>
+  <ul>
+    <li>"ai", "scanner", "generator" — in the App Name</li>
+    <li>"scan", "create", "share", "codes" — in the Subtitle</li>
+  </ul>
+
+  <h3>Localization suggestion</h3>
+  <p>Add at least one second locale (e.g. <em>English (UK)</em> or <em>Spanish (Mexico)</em>) so you get a second 100-character keyword slot. The App Name/Subtitle/Keywords don't have to differ between locales.</p>
+
+  <!-- 4 — URLs -->
+  <h2 id="urls">4. Support &amp; marketing URLs</h2>
+  <table>
+    <tr><th>Field</th><th>URL</th></tr>
+    <tr><td>Support URL (required)</td><td><code>https://scankit-pages.github.io/</code></td></tr>
+    <tr><td>Marketing URL (optional)</td><td><code>https://scankit-pages.github.io/</code></td></tr>
+    <tr><td>Privacy Policy URL (required)</td><td><code>https://scankit-pages.github.io/privacy.html</code></td></tr>
+  </table>
+
+  <!-- 5 — CATEGORY -->
+  <h2 id="category">5. Category &amp; age rating</h2>
+
+  <h3>Category</h3>
+  <div class="grid-2">
+    <div class="card"><div class="title">Primary</div><div class="value">Utilities</div></div>
+    <div class="card"><div class="title">Secondary (optional)</div><div class="value">Productivity</div></div>
+  </div>
+
+  <h3>Age rating questionnaire — recommended answers</h3>
+  <table>
+    <tr><th>Question</th><th>Answer</th></tr>
+    <tr><td>Cartoon or Fantasy Violence</td><td>None</td></tr>
+    <tr><td>Realistic Violence</td><td>None</td></tr>
+    <tr><td>Prolonged Graphic or Sadistic Realistic Violence</td><td>None</td></tr>
+    <tr><td>Profanity or Crude Humor</td><td>None</td></tr>
+    <tr><td>Mature/Suggestive Themes</td><td>None</td></tr>
+    <tr><td>Horror/Fear Themes</td><td>None</td></tr>
+    <tr><td>Medical/Treatment Information</td><td>None</td></tr>
+    <tr><td>Alcohol, Tobacco, or Drug Use / References</td><td>None</td></tr>
+    <tr><td>Simulated Gambling</td><td>None</td></tr>
+    <tr><td>Sexual Content or Nudity</td><td>None</td></tr>
+    <tr><td>Graphic Sexual Content and Nudity</td><td>None</td></tr>
+    <tr><td>Unrestricted Web Access</td><td>No</td></tr>
+    <tr><td>Gambling and Contests</td><td>No</td></tr>
+  </table>
+  <p>Result: <strong>Rated 4+</strong>.</p>
+
+  <!-- 6 — PRIVACY -->
+  <h2 id="privacy">6. Privacy nutrition labels</h2>
+  <p>Apple's <em>App Privacy</em> section asks what data you collect. For this app the honest answer is <strong>nothing</strong> — every scan stays on-device, there's no account, and the only network call is an optional Safe Browsing check that sends just the URL being checked.</p>
+
+  <table>
+    <tr><th>Section</th><th>Answer</th></tr>
+    <tr><td>Do you or your third-party partners collect data from this app?</td><td><strong>No</strong></td></tr>
+  </table>
+
+  <div class="callout">
+    If App Store Connect asks about <em>Safe Browsing</em> as third-party
+    data collection — Google Safe Browsing uses hashed URL prefixes and is
+    <strong>not</strong> a user-data collection service. You don't need to
+    declare it under App Privacy. If you ever add analytics / crash
+    reporting, come back and update this section.
+  </div>
+
+  <!-- 7 — IAP -->
+  <h2 id="iap">7. In-App Purchases</h2>
+  <p>Create these in <em>Features → In-App Purchases → +</em> and <em>Features → Subscriptions → + Subscription Group</em>.</p>
+
+  <table>
+    <tr><th>Product ID</th><th>Type</th><th>Price</th><th>Reference Name</th><th>Display Name</th></tr>
+    <tr><td><code>com.scankit.pro.monthly</code></td><td>Auto-Renewable Subscription</td><td>$2.99 / month</td><td>Monthly Pro</td><td>Monthly Pro</td></tr>
+    <tr><td><code>com.scankit.pro.yearly</code></td><td>Auto-Renewable Subscription</td><td>$19.99 / year (7-day free trial)</td><td>Yearly Pro</td><td>Yearly Pro</td></tr>
+    <tr><td><code>com.scankit.pro.lifetime</code></td><td>Non-Consumable</td><td>$299.99 one-time</td><td>Lifetime</td><td>Lifetime Access</td></tr>
+  </table>
+
+  <h3>Subscription group</h3>
+  <ul>
+    <li>Name: <strong>AI QR Pro</strong></li>
+    <li>Members: <code>com.scankit.pro.monthly</code>, <code>com.scankit.pro.yearly</code></li>
+  </ul>
+
+  <h3>Localization strings for IAPs</h3>
+  <pre class="copy">Monthly Pro
+Unlimited scanning with Pro features.
+
+Yearly Pro
+Everything in Pro for a year. 7-day free trial.
+
+Lifetime Access
+One-time purchase. Unlocks everything forever.</pre>
+
+  <h3>Review notes for IAPs</h3>
+  <p>Paste this into each IAP's <em>Review Notes</em> field so Apple's reviewer doesn't reject for missing context:</p>
+  <pre class="copy">This subscription unlocks the Pro tier of AI QR Code Scanner Generator. Pro features are: custom QR design (colors, dot shapes, frames, center logo), Pro exports (JPG, SVG, WebP, high-res PNG), unlimited scan history (free tier caps at 50 records), continuous scan, iCloud sync, and priority email support. All Pro features are gated client-side via StoreKit entitlement checks and functional in the test build.</pre>
+
+  <!-- 8 — SCREENSHOTS -->
+  <h2 id="screenshots">8. Screenshot &amp; preview specs</h2>
+
+  <h3>Required device sizes</h3>
+  <table>
+    <tr><th>Device class</th><th>Screenshot size (px)</th><th>Example device</th></tr>
+    <tr><td>iPhone 6.9" (Required)</td><td><strong>1290 × 2796</strong></td><td>iPhone 16 Pro Max / 17 Pro Max</td></tr>
+    <tr><td>iPhone 6.5" (Recommended)</td><td><strong>1284 × 2778</strong> or <strong>1242 × 2688</strong></td><td>iPhone 11 Pro Max / XS Max</td></tr>
+    <tr><td>iPad 13" (Only if iPad supported)</td><td><strong>2064 × 2752</strong></td><td>iPad Pro 13"</td></tr>
+  </table>
+
+  <h3>Recommended shot list (5 per size)</h3>
+  <ol>
+    <li><strong>Hero</strong> — home tab with the scan button + clipboard suggestion</li>
+    <li><strong>Live scan</strong> — camera preview with viewfinder, QR in-frame</li>
+    <li><strong>Scan result</strong> — URL result screen with Safe/Malicious badge and Smart Actions</li>
+    <li><strong>Create</strong> — Create grid showing all 16 code types</li>
+    <li><strong>Paywall</strong> — the 3-tier plan grid ($2.99 / $19.99 / $299.99) with "Most Popular" ribbon</li>
+  </ol>
+
+  <h3>App Preview video (optional)</h3>
+  <ul>
+    <li>15–30 seconds</li>
+    <li>≤ 500 MB</li>
+    <li>MP4, M4V, or MOV</li>
+    <li>Show live scan → result → create → paywall in order</li>
+  </ul>
+
+  <!-- 9 — REVIEW -->
+  <h2 id="review">9. Review information</h2>
+
+  <h3>Sign-in credentials</h3>
+  <p><strong>Not required.</strong> The app has no login. Leave the field blank and check "Sign-in not required."</p>
+
+  <h3>Contact information</h3>
+  <table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>First name</td><td>Akash</td></tr>
+    <tr><td>Last name</td><td>Mangukiya</td></tr>
+    <tr><td>Email</td><td>akashmangukiya10@gmail.com</td></tr>
+    <tr><td>Phone</td><td><em>(fill with your number)</em></td></tr>
+  </table>
+
+  <h3>Notes for the reviewer</h3>
+  <pre class="copy">Thanks for reviewing AI QR Code Scanner Generator.
+
+- The app requires no account.
+- The main flows to test are: (1) Home → Scan Code → point the camera at a QR, (2) Home → Scan from Photo → pick any image with a QR (sample QRs are included in the attached TestFlight bug-bash doc), (3) Create → pick any type → Next → Style → Preview → Save.
+- The Pro paywall appears from Settings → "Try AI QR Pro", or from any locked feature (Custom QR design, Pro exports, iCloud Sync, continuous scan, or when History exceeds 50 scans on the free tier).
+- The "Bank Transfer" (EPC) code type only appears when the device region is in the SEPA zone. It is not shown for US / India / other non-SEPA storefronts.
+- Safe Browsing checks send only the URL to Google's Safe Browsing v4 API.
+
+Please let me know if anything is unclear.</pre>
+
+  <h3>Export compliance</h3>
+  <p>The app uses standard HTTPS for Safe Browsing. In App Store Connect → the build → <em>Encryption</em> warning:</p>
+  <ul class="checklist">
+    <li>"Does your app use encryption?" → <strong>Yes</strong></li>
+    <li>"Does your app qualify for any of the exemptions?" → <strong>Yes</strong></li>
+    <li>Pick: <em>Your app only uses encryption for authentication, connections to a server, and standard iOS/macOS APIs.</em></li>
+  </ul>
+
+  <!-- 10 — TESTFLIGHT -->
+  <h2 id="testflight">10. TestFlight checklist</h2>
+  <ul class="checklist">
+    <li>Upload a build via GitHub Actions (Deploy workflow → <code>environment=testflight</code>) or locally (<code>bundle exec fastlane beta</code>)</li>
+    <li>Wait 5–15 minutes for Apple to process it</li>
+    <li>Go to App Store Connect → TestFlight → the new build → answer <strong>Missing Compliance</strong> ("Standard encryption, exempt")</li>
+    <li>Add yourself + teammates to <strong>Internal Testing</strong> (no Apple review needed)</li>
+    <li>Add test info: beta app description + feedback email (<code>akashmangukiya10@gmail.com</code>)</li>
+    <li>Open the TestFlight app on your iPhone → tap <strong>Update</strong> to install the new build</li>
+    <li>Confirm version in Settings → About reads <strong>1.2.0 (11)</strong> or newer</li>
+    <li>Smoke test: scan a QR, create a code, open the paywall, tap Restore Purchases</li>
+  </ul>
+
+  <!-- 11 — FINAL SUBMIT -->
+  <h2 id="submit">11. Final submission checklist</h2>
+  <ul class="checklist">
+    <li>App Name + Subtitle + Description + Promotional Text filled</li>
+    <li>Keywords (100 chars) filled</li>
+    <li>Support URL + Privacy Policy URL set</li>
+    <li>Primary category = Utilities</li>
+    <li>Age rating completed → result is 4+</li>
+    <li>App Privacy = "Not Collecting Data"</li>
+    <li>All 3 in-app purchases created, with review notes pasted into each</li>
+    <li>Subscription group "AI QR Pro" contains both auto-renewables</li>
+    <li>1024×1024 app icon uploaded (PNG, no alpha channel, no transparency)</li>
+    <li>At least 3 screenshots per required device size (iPhone 6.9")</li>
+    <li>Build selected from the processed TestFlight builds</li>
+    <li>Export compliance answered "Standard encryption, exempt"</li>
+    <li>Review notes pasted into the <em>Notes</em> field</li>
+    <li>Copyright line set: <code>© 2026 Akash Mangukiya</code></li>
+    <li>"Automatic release" or "Manual release" chosen per preference</li>
+    <li>Version number matches <code>CFBundleShortVersionString</code> in the build</li>
+    <li>Tap <strong>Add for Review</strong> → <strong>Submit for Review</strong></li>
+  </ul>
+
+  <!-- 12 — AFTER -->
+  <h2 id="post">12. After submission</h2>
+  <h3>Review turnaround</h3>
+  <p>Apple typically reviews a new iOS app within 24–48 hours. If you haven't heard back in 5 days, use <a href="https://developer.apple.com/contact/app-store/?topic=expedite">Request Expedited Review</a>.</p>
+
+  <h3>If rejected</h3>
+  <ul>
+    <li>Read the rejection carefully in App Store Connect → Resolution Center</li>
+    <li>Most first-submission rejections hit these guidelines: <strong>2.1 (App Completeness)</strong>, <strong>4.0 (Design)</strong>, <strong>3.1.1 (In-App Purchase)</strong>, or <strong>5.1.1 (Privacy)</strong></li>
+    <li>Reply with clarifying info; you don't always need a new build</li>
+    <li>If a new build is required, increment the build number and upload again</li>
+  </ul>
+
+  <h3>After approval</h3>
+  <ul>
+    <li>Pin the 1.2.0 milestone tag in GitHub</li>
+    <li>Create a <em>Phased Release for automatic updates</em> (7-day ramp) if you used auto-release</li>
+    <li>Monitor crashes in Xcode Organizer → Crashes</li>
+    <li>Watch the Ratings &amp; Reviews tab; reply to any 1-star reviews within 48h</li>
+  </ul>
+
+  <footer class="site">
+    <span>&copy; <span id="year">2026</span> AI QR Code Scanner Generator</span>
+    <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+  </footer>
+</div>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
